@@ -1,6 +1,6 @@
 //
-//  WokeUITests.swift
-//  WokeUITests
+//  wokeUITests.swift
+//  wokeUITests
 //
 //  Created by Ahmed Fuad Ali on 2018-08-13.
 //  Copyright © 2018 Ahmed Fuad Ali. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class WokeUITests: XCTestCase {
+class wokeUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

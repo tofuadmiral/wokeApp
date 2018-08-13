@@ -7,68 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		068686722121C535006A5D86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068686712121C535006A5D86 /* AppDelegate.swift */; };
-		068686742121C535006A5D86 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068686732121C535006A5D86 /* RootViewController.swift */; };
-		068686762121C535006A5D86 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068686752121C535006A5D86 /* DataViewController.swift */; };
-		068686782121C535006A5D86 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068686772121C535006A5D86 /* ModelController.swift */; };
-		0686867B2121C535006A5D86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068686792121C535006A5D86 /* Main.storyboard */; };
-		0686867D2121C536006A5D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0686867C2121C536006A5D86 /* Assets.xcassets */; };
-		068686802121C536006A5D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0686867E2121C536006A5D86 /* LaunchScreen.storyboard */; };
-		0686868B2121C536006A5D86 /* WokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0686868A2121C536006A5D86 /* WokeTests.swift */; };
-		068686962121C536006A5D86 /* WokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068686952121C536006A5D86 /* WokeUITests.swift */; };
+		068686B02121C779006A5D86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068686AF2121C779006A5D86 /* AppDelegate.swift */; };
+		068686B22121C779006A5D86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068686B12121C779006A5D86 /* ViewController.swift */; };
+		068686B52121C779006A5D86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068686B32121C779006A5D86 /* Main.storyboard */; };
+		068686B72121C77A006A5D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068686B62121C77A006A5D86 /* Assets.xcassets */; };
+		068686BA2121C77A006A5D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068686B82121C77A006A5D86 /* LaunchScreen.storyboard */; };
+		068686C52121C77A006A5D86 /* wokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068686C42121C77A006A5D86 /* wokeTests.swift */; };
+		068686D02121C77A006A5D86 /* wokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068686CF2121C77A006A5D86 /* wokeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		068686872121C536006A5D86 /* PBXContainerItemProxy */ = {
+		068686C12121C77A006A5D86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 068686662121C535006A5D86 /* Project object */;
+			containerPortal = 068686A42121C779006A5D86 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0686866D2121C535006A5D86;
-			remoteInfo = Woke;
+			remoteGlobalIDString = 068686AB2121C779006A5D86;
+			remoteInfo = woke;
 		};
-		068686922121C536006A5D86 /* PBXContainerItemProxy */ = {
+		068686CC2121C77A006A5D86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 068686662121C535006A5D86 /* Project object */;
+			containerPortal = 068686A42121C779006A5D86 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0686866D2121C535006A5D86;
-			remoteInfo = Woke;
+			remoteGlobalIDString = 068686AB2121C779006A5D86;
+			remoteInfo = woke;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0686866E2121C535006A5D86 /* Woke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woke.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		068686712121C535006A5D86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		068686732121C535006A5D86 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		068686752121C535006A5D86 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		068686772121C535006A5D86 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		0686867A2121C535006A5D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0686867C2121C536006A5D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0686867F2121C536006A5D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		068686812121C536006A5D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		068686862121C536006A5D86 /* WokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0686868A2121C536006A5D86 /* WokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WokeTests.swift; sourceTree = "<group>"; };
-		0686868C2121C536006A5D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		068686912121C536006A5D86 /* WokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		068686952121C536006A5D86 /* WokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WokeUITests.swift; sourceTree = "<group>"; };
-		068686972121C536006A5D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068686AC2121C779006A5D86 /* woke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		068686AF2121C779006A5D86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		068686B12121C779006A5D86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		068686B42121C779006A5D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		068686B62121C77A006A5D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		068686B92121C77A006A5D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		068686BB2121C77A006A5D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068686C02121C77A006A5D86 /* wokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		068686C42121C77A006A5D86 /* wokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wokeTests.swift; sourceTree = "<group>"; };
+		068686C62121C77A006A5D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068686CB2121C77A006A5D86 /* wokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		068686CF2121C77A006A5D86 /* wokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wokeUITests.swift; sourceTree = "<group>"; };
+		068686D12121C77A006A5D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0686866B2121C535006A5D86 /* Frameworks */ = {
+		068686A92121C779006A5D86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		068686832121C536006A5D86 /* Frameworks */ = {
+		068686BD2121C77A006A5D86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0686868E2121C536006A5D86 /* Frameworks */ = {
+		068686C82121C77A006A5D86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,139 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		068686652121C535006A5D86 = {
+		068686A32121C779006A5D86 = {
 			isa = PBXGroup;
 			children = (
-				068686702121C535006A5D86 /* Woke */,
-				068686892121C536006A5D86 /* WokeTests */,
-				068686942121C536006A5D86 /* WokeUITests */,
-				0686866F2121C535006A5D86 /* Products */,
+				068686AE2121C779006A5D86 /* woke */,
+				068686C32121C77A006A5D86 /* wokeTests */,
+				068686CE2121C77A006A5D86 /* wokeUITests */,
+				068686AD2121C779006A5D86 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0686866F2121C535006A5D86 /* Products */ = {
+		068686AD2121C779006A5D86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0686866E2121C535006A5D86 /* Woke.app */,
-				068686862121C536006A5D86 /* WokeTests.xctest */,
-				068686912121C536006A5D86 /* WokeUITests.xctest */,
+				068686AC2121C779006A5D86 /* woke.app */,
+				068686C02121C77A006A5D86 /* wokeTests.xctest */,
+				068686CB2121C77A006A5D86 /* wokeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		068686702121C535006A5D86 /* Woke */ = {
+		068686AE2121C779006A5D86 /* woke */ = {
 			isa = PBXGroup;
 			children = (
-				068686712121C535006A5D86 /* AppDelegate.swift */,
-				068686732121C535006A5D86 /* RootViewController.swift */,
-				068686752121C535006A5D86 /* DataViewController.swift */,
-				068686772121C535006A5D86 /* ModelController.swift */,
-				068686792121C535006A5D86 /* Main.storyboard */,
-				0686867C2121C536006A5D86 /* Assets.xcassets */,
-				0686867E2121C536006A5D86 /* LaunchScreen.storyboard */,
-				068686812121C536006A5D86 /* Info.plist */,
+				068686AF2121C779006A5D86 /* AppDelegate.swift */,
+				068686B12121C779006A5D86 /* ViewController.swift */,
+				068686B32121C779006A5D86 /* Main.storyboard */,
+				068686B62121C77A006A5D86 /* Assets.xcassets */,
+				068686B82121C77A006A5D86 /* LaunchScreen.storyboard */,
+				068686BB2121C77A006A5D86 /* Info.plist */,
 			);
-			path = Woke;
+			path = woke;
 			sourceTree = "<group>";
 		};
-		068686892121C536006A5D86 /* WokeTests */ = {
+		068686C32121C77A006A5D86 /* wokeTests */ = {
 			isa = PBXGroup;
 			children = (
-				0686868A2121C536006A5D86 /* WokeTests.swift */,
-				0686868C2121C536006A5D86 /* Info.plist */,
+				068686C42121C77A006A5D86 /* wokeTests.swift */,
+				068686C62121C77A006A5D86 /* Info.plist */,
 			);
-			path = WokeTests;
+			path = wokeTests;
 			sourceTree = "<group>";
 		};
-		068686942121C536006A5D86 /* WokeUITests */ = {
+		068686CE2121C77A006A5D86 /* wokeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				068686952121C536006A5D86 /* WokeUITests.swift */,
-				068686972121C536006A5D86 /* Info.plist */,
+				068686CF2121C77A006A5D86 /* wokeUITests.swift */,
+				068686D12121C77A006A5D86 /* Info.plist */,
 			);
-			path = WokeUITests;
+			path = wokeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0686866D2121C535006A5D86 /* Woke */ = {
+		068686AB2121C779006A5D86 /* woke */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0686869A2121C536006A5D86 /* Build configuration list for PBXNativeTarget "Woke" */;
+			buildConfigurationList = 068686D42121C77A006A5D86 /* Build configuration list for PBXNativeTarget "woke" */;
 			buildPhases = (
-				0686866A2121C535006A5D86 /* Sources */,
-				0686866B2121C535006A5D86 /* Frameworks */,
-				0686866C2121C535006A5D86 /* Resources */,
+				068686A82121C779006A5D86 /* Sources */,
+				068686A92121C779006A5D86 /* Frameworks */,
+				068686AA2121C779006A5D86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Woke;
-			productName = Woke;
-			productReference = 0686866E2121C535006A5D86 /* Woke.app */;
+			name = woke;
+			productName = woke;
+			productReference = 068686AC2121C779006A5D86 /* woke.app */;
 			productType = "com.apple.product-type.application";
 		};
-		068686852121C536006A5D86 /* WokeTests */ = {
+		068686BF2121C77A006A5D86 /* wokeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0686869D2121C536006A5D86 /* Build configuration list for PBXNativeTarget "WokeTests" */;
+			buildConfigurationList = 068686D72121C77A006A5D86 /* Build configuration list for PBXNativeTarget "wokeTests" */;
 			buildPhases = (
-				068686822121C536006A5D86 /* Sources */,
-				068686832121C536006A5D86 /* Frameworks */,
-				068686842121C536006A5D86 /* Resources */,
+				068686BC2121C77A006A5D86 /* Sources */,
+				068686BD2121C77A006A5D86 /* Frameworks */,
+				068686BE2121C77A006A5D86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				068686882121C536006A5D86 /* PBXTargetDependency */,
+				068686C22121C77A006A5D86 /* PBXTargetDependency */,
 			);
-			name = WokeTests;
-			productName = WokeTests;
-			productReference = 068686862121C536006A5D86 /* WokeTests.xctest */;
+			name = wokeTests;
+			productName = wokeTests;
+			productReference = 068686C02121C77A006A5D86 /* wokeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		068686902121C536006A5D86 /* WokeUITests */ = {
+		068686CA2121C77A006A5D86 /* wokeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 068686A02121C536006A5D86 /* Build configuration list for PBXNativeTarget "WokeUITests" */;
+			buildConfigurationList = 068686DA2121C77A006A5D86 /* Build configuration list for PBXNativeTarget "wokeUITests" */;
 			buildPhases = (
-				0686868D2121C536006A5D86 /* Sources */,
-				0686868E2121C536006A5D86 /* Frameworks */,
-				0686868F2121C536006A5D86 /* Resources */,
+				068686C72121C77A006A5D86 /* Sources */,
+				068686C82121C77A006A5D86 /* Frameworks */,
+				068686C92121C77A006A5D86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				068686932121C536006A5D86 /* PBXTargetDependency */,
+				068686CD2121C77A006A5D86 /* PBXTargetDependency */,
 			);
-			name = WokeUITests;
-			productName = WokeUITests;
-			productReference = 068686912121C536006A5D86 /* WokeUITests.xctest */;
+			name = wokeUITests;
+			productName = wokeUITests;
+			productReference = 068686CB2121C77A006A5D86 /* wokeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		068686662121C535006A5D86 /* Project object */ = {
+		068686A42121C779006A5D86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Ahmed Fuad Ali";
 				TargetAttributes = {
-					0686866D2121C535006A5D86 = {
+					068686AB2121C779006A5D86 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					068686852121C536006A5D86 = {
+					068686BF2121C77A006A5D86 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 0686866D2121C535006A5D86;
+						TestTargetID = 068686AB2121C779006A5D86;
 					};
-					068686902121C536006A5D86 = {
+					068686CA2121C77A006A5D86 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 0686866D2121C535006A5D86;
+						TestTargetID = 068686AB2121C779006A5D86;
 					};
 				};
 			};
-			buildConfigurationList = 068686692121C535006A5D86 /* Build configuration list for PBXProject "Woke" */;
+			buildConfigurationList = 068686A72121C779006A5D86 /* Build configuration list for PBXProject "woke" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 068686652121C535006A5D86;
-			productRefGroup = 0686866F2121C535006A5D86 /* Products */;
+			mainGroup = 068686A32121C779006A5D86;
+			productRefGroup = 068686AD2121C779006A5D86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0686866D2121C535006A5D86 /* Woke */,
-				068686852121C536006A5D86 /* WokeTests */,
-				068686902121C536006A5D86 /* WokeUITests */,
+				068686AB2121C779006A5D86 /* woke */,
+				068686BF2121C77A006A5D86 /* wokeTests */,
+				068686CA2121C77A006A5D86 /* wokeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0686866C2121C535006A5D86 /* Resources */ = {
+		068686AA2121C779006A5D86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068686802121C536006A5D86 /* LaunchScreen.storyboard in Resources */,
-				0686867D2121C536006A5D86 /* Assets.xcassets in Resources */,
-				0686867B2121C535006A5D86 /* Main.storyboard in Resources */,
+				068686BA2121C77A006A5D86 /* LaunchScreen.storyboard in Resources */,
+				068686B72121C77A006A5D86 /* Assets.xcassets in Resources */,
+				068686B52121C779006A5D86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		068686842121C536006A5D86 /* Resources */ = {
+		068686BE2121C77A006A5D86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0686868F2121C536006A5D86 /* Resources */ = {
+		068686C92121C77A006A5D86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,61 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0686866A2121C535006A5D86 /* Sources */ = {
+		068686A82121C779006A5D86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068686742121C535006A5D86 /* RootViewController.swift in Sources */,
-				068686782121C535006A5D86 /* ModelController.swift in Sources */,
-				068686762121C535006A5D86 /* DataViewController.swift in Sources */,
-				068686722121C535006A5D86 /* AppDelegate.swift in Sources */,
+				068686B22121C779006A5D86 /* ViewController.swift in Sources */,
+				068686B02121C779006A5D86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		068686822121C536006A5D86 /* Sources */ = {
+		068686BC2121C77A006A5D86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0686868B2121C536006A5D86 /* WokeTests.swift in Sources */,
+				068686C52121C77A006A5D86 /* wokeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0686868D2121C536006A5D86 /* Sources */ = {
+		068686C72121C77A006A5D86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068686962121C536006A5D86 /* WokeUITests.swift in Sources */,
+				068686D02121C77A006A5D86 /* wokeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		068686882121C536006A5D86 /* PBXTargetDependency */ = {
+		068686C22121C77A006A5D86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0686866D2121C535006A5D86 /* Woke */;
-			targetProxy = 068686872121C536006A5D86 /* PBXContainerItemProxy */;
+			target = 068686AB2121C779006A5D86 /* woke */;
+			targetProxy = 068686C12121C77A006A5D86 /* PBXContainerItemProxy */;
 		};
-		068686932121C536006A5D86 /* PBXTargetDependency */ = {
+		068686CD2121C77A006A5D86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0686866D2121C535006A5D86 /* Woke */;
-			targetProxy = 068686922121C536006A5D86 /* PBXContainerItemProxy */;
+			target = 068686AB2121C779006A5D86 /* woke */;
+			targetProxy = 068686CC2121C77A006A5D86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		068686792121C535006A5D86 /* Main.storyboard */ = {
+		068686B32121C779006A5D86 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0686867A2121C535006A5D86 /* Base */,
+				068686B42121C779006A5D86 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0686867E2121C536006A5D86 /* LaunchScreen.storyboard */ = {
+		068686B82121C77A006A5D86 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0686867F2121C536006A5D86 /* Base */,
+				068686B92121C77A006A5D86 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		068686982121C536006A5D86 /* Debug */ = {
+		068686D22121C77A006A5D86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		068686992121C536006A5D86 /* Release */ = {
+		068686D32121C77A006A5D86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,158 +426,158 @@
 			};
 			name = Release;
 		};
-		0686869B2121C536006A5D86 /* Debug */ = {
+		068686D52121C77A006A5D86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Woke/Info.plist;
+				INFOPLIST_FILE = woke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.Woke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.woke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0686869C2121C536006A5D86 /* Release */ = {
+		068686D62121C77A006A5D86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Woke/Info.plist;
+				INFOPLIST_FILE = woke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.Woke;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.woke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		0686869E2121C536006A5D86 /* Debug */ = {
+		068686D82121C77A006A5D86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WokeTests/Info.plist;
+				INFOPLIST_FILE = wokeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.WokeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.wokeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woke.app/Woke";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woke.app/woke";
 			};
 			name = Debug;
 		};
-		0686869F2121C536006A5D86 /* Release */ = {
+		068686D92121C77A006A5D86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WokeTests/Info.plist;
+				INFOPLIST_FILE = wokeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.WokeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.wokeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woke.app/Woke";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woke.app/woke";
 			};
 			name = Release;
 		};
-		068686A12121C536006A5D86 /* Debug */ = {
+		068686DB2121C77A006A5D86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WokeUITests/Info.plist;
+				INFOPLIST_FILE = wokeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.WokeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.wokeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Woke;
+				TEST_TARGET_NAME = woke;
 			};
 			name = Debug;
 		};
-		068686A22121C536006A5D86 /* Release */ = {
+		068686DC2121C77A006A5D86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WokeUITests/Info.plist;
+				INFOPLIST_FILE = wokeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.WokeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuadali.wokeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Woke;
+				TEST_TARGET_NAME = woke;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		068686692121C535006A5D86 /* Build configuration list for PBXProject "Woke" */ = {
+		068686A72121C779006A5D86 /* Build configuration list for PBXProject "woke" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				068686982121C536006A5D86 /* Debug */,
-				068686992121C536006A5D86 /* Release */,
+				068686D22121C77A006A5D86 /* Debug */,
+				068686D32121C77A006A5D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0686869A2121C536006A5D86 /* Build configuration list for PBXNativeTarget "Woke" */ = {
+		068686D42121C77A006A5D86 /* Build configuration list for PBXNativeTarget "woke" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0686869B2121C536006A5D86 /* Debug */,
-				0686869C2121C536006A5D86 /* Release */,
+				068686D52121C77A006A5D86 /* Debug */,
+				068686D62121C77A006A5D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0686869D2121C536006A5D86 /* Build configuration list for PBXNativeTarget "WokeTests" */ = {
+		068686D72121C77A006A5D86 /* Build configuration list for PBXNativeTarget "wokeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0686869E2121C536006A5D86 /* Debug */,
-				0686869F2121C536006A5D86 /* Release */,
+				068686D82121C77A006A5D86 /* Debug */,
+				068686D92121C77A006A5D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		068686A02121C536006A5D86 /* Build configuration list for PBXNativeTarget "WokeUITests" */ = {
+		068686DA2121C77A006A5D86 /* Build configuration list for PBXNativeTarget "wokeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				068686A12121C536006A5D86 /* Debug */,
-				068686A22121C536006A5D86 /* Release */,
+				068686DB2121C77A006A5D86 /* Debug */,
+				068686DC2121C77A006A5D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 068686662121C535006A5D86 /* Project object */;
+	rootObject = 068686A42121C779006A5D86 /* Project object */;
 }
